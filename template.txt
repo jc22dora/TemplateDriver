@@ -1,0 +1,35 @@
+public class Template {
+    public int templateTitle(int[] nums) {
+
+        // 4:54
+        
+        return 1;
+    }
+
+    public void testTemplate() {
+        int[] testCaseOne = {}; 
+        int[] testCaseTwo = {}; 
+        int[] testCaseThree = {}; 
+
+        int testCaseOneAns = 1;
+        int testCaseTwoAns = 1;
+        int testCaseThreeAns = 1;
+        
+        if(templateTitle(testCaseOne) != testCaseOneAns) {
+            System.out.println("Case One: Failed");
+        }
+        if(templateTitle(testCaseTwo) != testCaseTwoAns) {
+            System.out.println("Case Two: Failed");
+        }
+        if(templateTitle(testCaseThree) != testCaseThreeAns) {
+            System.out.println("Case Three: Failed");
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        Template obj = new Template();
+        obj.testTemplate();
+    }
+    
+}
